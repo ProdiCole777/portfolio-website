@@ -1,8 +1,8 @@
-import GradientHoverText from "./gradientHoverText";
+import GradientHoverText from "./GradientHoverText";
 import { useState } from "react";
 import { Link } from "react-router-dom"; // ✅ Import Link for routing
 import Logo from "../images/logo.webp";
-import WeatherWidgetMini from "./weatherWidgetMini";
+import WeatherWidgetMini from "./WeatherWidgetMini";
 
 const menuItems = [
   { name: "Home", path: "/" },

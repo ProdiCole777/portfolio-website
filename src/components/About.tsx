@@ -1,4 +1,4 @@
-import GradientHoverText from "./gradientHoverText";
+import GradientHoverText from "./GradientHoverText";
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "./ui/card";
 

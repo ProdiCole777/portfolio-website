@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
-import ScrollToTop from "./components/scrollToTop";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 // ✅ Lazy load pages (only load when needed)
 const Hero = lazy(() => import("./components/Hero"));

@@ -1,5 +1,5 @@
 import { Mail, Linkedin, Github, Twitter } from "./ui/icons";
-import GradientHoverText from "./gradientHoverText";
+import GradientHoverText from "./GradientHoverText";
 import { Card, CardContent } from "./ui/card";
 
 const Contact = () => {

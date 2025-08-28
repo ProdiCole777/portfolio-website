@@ -1,5 +1,5 @@
 import { Card, CardContent } from "./ui/card";
-import GradientHoverText from "./gradientHoverText";
+import GradientHoverText from "./GradientHoverText";
 
 export default function Resume() {
   return (

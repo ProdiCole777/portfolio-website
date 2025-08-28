@@ -1,4 +1,4 @@
-import GradientHoverText from "./gradientHoverText";
+import GradientHoverText from "./GradientHoverText";
 
 type Project = {
   title: string;
