@@ -74,7 +74,7 @@ const Hero = () => {
               transform: "translate(-50%, -50%)",
               boxShadow: `${(shadowPos.x - imgSize.width / 2) / 10}px ${
                 (shadowPos.y - imgSize.height / 2) / 10
-              }px 30px 8px rgba(126, 44, 193, 0.7)`,
+              }px 30px 8px rgba(255, 255, 255, 0.7)`,
               transition: "box-shadow 0.1s ease-out",
             }}
           />

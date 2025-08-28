@@ -30,7 +30,7 @@ const Contact = () => {
               href="mailto:ProdiCole.Dev@gmail.com"
               className="flex items-center justify-center gap-2 bg-teal-400 text-white px-6 py-3 rounded-full hover:bg-teal-600 transition w-1/2 sm:w-auto mx-auto"
             >
-              <Mail size={20} /> Email
+              <Mail className="w-5 h-5" /> Email
             </a>
 
             <a
@@ -39,27 +39,27 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition w-1/2 sm:w-auto mx-auto"
             >
-              <Linkedin size={20} /> LinkedIn
+              <Linkedin className="w-5 h-5" /> LinkedIn
             </a>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/ProdiCole777"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition w-1/2 sm:w-auto mx-auto"
             >
-              <Github size={20} /> GitHub
+              <Github className="w-5 h-5" /> GitHub
             </a>
 
             <a
-              href="https://x.com/your-handle"
+              href="https://x.com/@TheProdiColeDev"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition w-1/2 sm:w-auto mx-auto"
             >
-              <Twitter size={20} /> X (Twitter)
+              <Twitter className="w-5 h-5" /> X (Twitter)
             </a>
           </div>
 

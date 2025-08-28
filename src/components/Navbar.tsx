@@ -28,7 +28,7 @@ const Navbar = () => {
             />
           </Link>
           <GradientHoverText className="text-3xl font-bold">
-            Cole Fox
+          Cole Fox
           </GradientHoverText>
         </div>
 
