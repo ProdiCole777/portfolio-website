@@ -20,19 +20,46 @@ const Contact = () => {
 
           {/* Intro text */}
           <p className="text-gray-300 mb-8">
-            Have a question, want to collaborate, or just say hello? I’d love to
-            hear from you.
+            Have a question, want to collaborate, or just say hello? Fill out the form below and I’ll get back to you.
           </p>
 
-          {/* Contact buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
-              href="mailto:ProdiCole.Dev@gmail.com"
-              className="flex items-center justify-center gap-2 bg-teal-400 text-white px-6 py-3 rounded-full hover:bg-teal-600 transition w-1/2 sm:w-auto mx-auto"
+          {/* Contact Form */}
+          <form
+            action="https://formspree.io/f/YOUR_FORM_ID" // <-- Replace with your Formspree ID
+            method="POST"
+            className="flex flex-col gap-4 text-left"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              className="p-3 rounded-md border border-gray-600 bg-slate-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="p-3 rounded-md border border-gray-600 bg-slate-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows={5}
+              className="p-3 rounded-md border border-gray-600 bg-slate-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              required
+            />
+            <button
+              type="submit"
+              className="flex items-center justify-center gap-2 bg-teal-400 text-white px-6 py-3 rounded-full hover:bg-teal-600 transition w-full sm:w-auto mx-auto"
             >
-              <Mail className="w-5 h-5" /> Email
-            </a>
+              <Mail className="w-5 h-5" /> Send Message
+            </button>
+          </form>
 
+          {/* Social Links */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
             <a
               href="https://linkedin.com/in/your-link"
               target="_blank"
@@ -41,9 +68,7 @@ const Contact = () => {
             >
               <Linkedin className="w-5 h-5" /> LinkedIn
             </a>
-          </div>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
             <a
               href="https://github.com/ProdiCole777"
               target="_blank"
