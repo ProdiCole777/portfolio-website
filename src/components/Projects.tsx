@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Bible Verse Randomizer",
     description:
       "Displays random Bible verses using React, TypeScript, and styled with Tailwind CSS.",
-    githubUrl: "https://prodicole777.github.io/bible-verse-randomizer/",
+    githubUrl: "https://bible-verse-randomizer.vercel.app/",
   },
 ];
 
