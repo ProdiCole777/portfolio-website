@@ -1,8 +1,8 @@
-import GradientHoverText from "./GradientHoverText";
+import GradientHoverText from "./gradientHoverText";
 import { useState } from "react";
 import { Link } from "react-router-dom"; // ✅ Import Link for routing
 import Logo from "../images/logo.webp";
-import WeatherWidgetMini from "./WeatherWidgetMini";
+import WeatherWidgetMini from "./weatherWidgetMini";
 
 const menuItems = [
   { name: "Home", path: "/" },
@@ -28,7 +28,7 @@ const Navbar = () => {
             />
           </Link>
           <GradientHoverText className="text-3xl font-bold">
-          Cole Fox
+            Cole Fox
           </GradientHoverText>
         </div>
 

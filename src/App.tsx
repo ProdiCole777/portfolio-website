@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import ScrollToTop from "./components/scrollToTop";
 
 // ✅ Lazy load pages (only load when needed)
-const Hero = lazy(() => import("./components/Hero"));
-const About = lazy(() => import("./components/About"));
-const Projects = lazy(() => import("./components/Projects"));
-const Resume = lazy(() => import("./components/Resume"));
-const Contact = lazy(() => import("./components/Contact"));
+const Hero = lazy(() => import("./components/hero"));
+const About = lazy(() => import("./components/about"));
+const Projects = lazy(() => import("./components/projects"));
+const Resume = lazy(() => import("./components/resume"));
+const Contact = lazy(() => import("./components/contact"));
 
 const App = () => {
   return (

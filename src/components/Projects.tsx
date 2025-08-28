@@ -1,4 +1,4 @@
-import GradientHoverText from "./GradientHoverText";
+import GradientHoverText from "./gradientHoverText";
 
 type Project = {
   title: string;
@@ -11,7 +11,7 @@ const projects: Project[] = [
     title: "To-Do List App",
     description:
       "A simple, clean to-do list made with HTML, CSS, and a little JS",
-    githubUrl: "https://prodicole777.github.io/Todo-list-app/",
+    githubUrl: "https://todo-list-app-six-ochre.vercel.app/",
   },
   {
     title: "Bible Verse Randomizer",

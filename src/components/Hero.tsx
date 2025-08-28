@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ProfileImage from "../images/Profileimage.webp";
-import WeatherWidget from "./WeatherWidget";
-import GradientHoverText from "./GradientHoverText";
+import WeatherWidget from "./weatherWidget";
+import GradientHoverText from "./gradientHoverText";
 
 const Hero = () => {
   // ----- Cursor Glow State -----

@@ -1,6 +1,6 @@
-import GradientHoverText from "./GradientHoverText";
+import GradientHoverText from "./gradientHoverText";
 import { Link } from "react-router-dom";
-import { Card, CardContent } from "../components/ui/card";
+import { Card, CardContent } from "./ui/card";
 
 const About = () => {
   return (
