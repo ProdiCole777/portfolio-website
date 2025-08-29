@@ -25,7 +25,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <form
-            action="https://formspree.io/f/YOUR_FORM_ID" // <-- Replace with your Formspree ID
+            action="https://formspree.io/f/mgvlokqd" // <-- Replace with your Formspree ID
             method="POST"
             className="flex flex-col gap-4 text-left"
           >
@@ -61,7 +61,7 @@ const Contact = () => {
           {/* Social Links */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
             <a
-              href="https://linkedin.com/in/your-link"
+              href="https://www.linkedin.com/in/cole-fox-9282a4381/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition w-1/2 sm:w-auto mx-auto"
