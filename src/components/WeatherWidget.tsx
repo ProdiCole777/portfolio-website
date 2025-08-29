@@ -40,11 +40,8 @@ const WeatherWidget: React.FC = () => {
 
   // Fetch geolocation weather if user clicks button
   useEffect(() => {
-    if (useLocation && navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (pos) => fetchWeather(pos.coords.latitude, pos.coords.longitude),
-        () => fetchWeather() // fallback if permission denied
-      );
+    if (useLocation) {
+      fetchWeather(); // fallback if permission denied
     }
   }, [useLocation]);
 
